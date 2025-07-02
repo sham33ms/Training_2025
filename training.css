@@ -2,5 +2,8 @@
     background-color: aqua;
 }
 th,tr,td{
-    border: 1px solid black;
+    border: 1px solid white ;
+    border-collapse: collapse;
+    background-color: aliceblue;
+    border-radius: 20px;
 }
