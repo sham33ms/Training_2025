@@ -4,25 +4,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML training</title>
     <link rel="stylesheet" href="training.css">
+    <style>
+        body {
+            
+            background-image: url('egimg2.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+        .div-bar{
+    background-color: aqua;
+}
+th,tr,td{
+    border: 1px solid white ;
+    border-collapse: collapse;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border-color: red;
+}
+
+a:visited {
+  color: rgb(72, 17, 223);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+    </style>
+
 </head>
 
 <body>
+    <h1>My frist heading</h1><br>
+    <p>My first paragraph</p>
+    <p>this is <br>my second <br> paragraph which has <br> breaks in between</p>
+    <a href="https://www.w3schools.com/html/html_attributes.asp" target="_blank">visit w3school attributes </a><br>
+    <a href="4contact@gmail.com">For contact</a>
+    <button onclick="document.location='html2.html'"> html button</button>
+    <img src="egimg.jpg" alt="camera" width="200" height="200">
+    <div style="color: blue;"> red </div>
+    <p title="Click for next page"> Click</p>
+    <p>
+        This paragraph
+        contains a lot of lines
+        in the source code,
+        but the browser
+        ignores it.
+    </p>
+
+    <p>
+        This paragraph
+        contains a lot of spaces
+        in the source code,
+        but the browser
+        ignores it.
+    </p>
+    <pre>
+            this is a pre tag
+
+            which has a lot of spaces in between
+
+            which is not ignored by the browser
+
+            like the p or div tags
+        </pre>
+    <p style="color: blue;"> red </p>
+    <p style="color: red;"> blue</p>
+    <p style="font-size: larger;">small</p>
+    <p style="font-size: small;">large</p>
+    <h1 style="background-color: powderblue; font-family: Cambria; font-size: 300%; text-align: center;"> H1 tag is used
+        for heading </h1>
+    <p style="background-color: tomato; font-family: 'Courier New'; font-size: 150%; text-align: center;"> P tag is used
+        for paragraphs </p>
+    <b>bold</b><br>
+    <strong>strong & important</strong><br>
+    <i> Italic </i><br>
+    <em>emphasized</em><br>
+    <small>small</small><br>
+    <p>this is a <mark>important </mark> <del> deleted</del> <ins> underlined</ins> msg </p><br>
+    <p>this is <sub>subscript </sub> and <sup>superscript</sup></p>
+    <p><q> quotation</q> <abbr title="world wide web"> www</abbr></p>
+    <address>
+        this is me <br>
+        from here <br>
+        to there <br>
+    </address>
+    <p><cite>the</cite></p>
+    <bdo dir="rtl">right to left</bdo>
+    <!--comments are no tdisplayed-->
+    <h1 style="border: 2px solid tomato;"> hiii </h1>
+
     <div class="div-bar">Hii</div>
     <table style="width: 100%;">
         <tr>
-            <th>name</th>
+            <th style="width: 79%;">name</th>
             <th>place</th>
         </tr>
-        <tr>
+        <tr style="height: 100px;">
             <td>shameem</td>
+            <td>nagercoil</td>
+        </tr>
+        <tr>
+            <td>amadis</td>
             <td>nagercoil</td>
         </tr>
     </table>
     <b>bold</b>
     <i>italic</i>
-    <strong>strong</strong>
+    <strong>strong </strong>
 
     <ul type="square">
         <div>unordered list </div>
@@ -37,7 +132,13 @@
         <li>num2</li>
 
     </ol>
-    
+    <dl>
+        <dt>cofee</dt>
+        <dd>with milk</dd>
+        <dt>black coffee</dt>
+        <dd>without milk</dd>
+    </dl>
+
 
 
 </body>
